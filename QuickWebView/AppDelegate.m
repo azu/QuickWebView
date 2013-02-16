@@ -19,7 +19,7 @@
 {
 
 }
-
+// QuickWebView://open/?url=http://eow.alc.co.jp/search?q={query}
 - (void)handleURLEvent:(NSAppleEventDescriptor*)event withReplyEvent:(NSAppleEventDescriptor*)replyEvent
 {
     NSString* urlString = [[event paramDescriptorForKeyword:keyDirectObject] stringValue];
@@ -27,21 +27,9 @@
     if (url && [[url host] isEqualToString:@"open"]) {
         NSDictionary *params = [url dictionaryByDecodingQueryString];
         NSURL *urlForOpen = [NSURL URLWithString:[params objectForKey:@"url"]];
-        NSLog(@"url %@",urlForOpen);
         [[self.webView mainFrame] loadRequest:[NSURLRequest requestWithURL:urlForOpen]];
     }
     
-}
-- (NSDictionary *)parseQueryString:(NSString *)query {
-    NSMutableDictionary * dictionary = [[NSMutableDictionary alloc] init];
-    NSArray * pairs = [query componentsSeparatedByString:@"&"];
-    for (NSString * pair in pairs) {
-        NSArray * elements = [pair componentsSeparatedByString:@"="];
-        NSString * key     = [[elements objectAtIndex:0] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-        NSString * value   = [[elements objectAtIndex:1] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-        [dictionary setValue:value forKey:key];
-    }
-    return dictionary;
 }
 
 @end

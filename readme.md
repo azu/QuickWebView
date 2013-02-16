@@ -10,14 +10,15 @@ e.g.) alfred(Custom Search)
 
 > QuickWebView://open/?url=http://eow.alc.co.jp/search?q={query}
 
+
+## Credits
+
+[typester/emacs-handler · GitHub](https://github.com/typester/emacs-handler "typester/emacs-handler · GitHub")
+Daisuke Murase :@typester (github, twitter, CPAN, etc..)
+
 ## License
 
 MIT
 
 Copyright (c) 2013 azu.
 Released under the MIT License
-
-## Copyright
-
-[typester/emacs-handler · GitHub](https://github.com/typester/emacs-handler "typester/emacs-handler · GitHub")
-Daisuke Murase :@typester (github, twitter, CPAN, etc..)
