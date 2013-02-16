@@ -13,12 +13,14 @@ e.g.) alfred(Custom Search)
 
 ## Credits
 
-[typester/emacs-handler · GitHub](https://github.com/typester/emacs-handler "typester/emacs-handler · GitHub")
+* [typester/emacs-handler · GitHub](https://github.com/typester/emacs-handler "typester/emacs-handler · GitHub")
 Daisuke Murase :@typester (github, twitter, CPAN, etc..)
 
 ## License
 
 MIT
 
+```
 Copyright (c) 2013 azu.
 Released under the MIT License
+```
