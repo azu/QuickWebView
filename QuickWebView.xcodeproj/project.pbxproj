@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		739A287516CF6C110020A6DE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739A287416CF6C110020A6DE /* Cocoa.framework */; };
+		739A287F16CF6C110020A6DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 739A287D16CF6C110020A6DE /* InfoPlist.strings */; };
+		739A288116CF6C110020A6DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A288016CF6C110020A6DE /* main.m */; };
+		739A288516CF6C110020A6DE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 739A288316CF6C110020A6DE /* Credits.rtf */; };
+		739A288816CF6C110020A6DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A288716CF6C110020A6DE /* AppDelegate.m */; };
+		739A288B16CF6C120020A6DE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 739A288916CF6C120020A6DE /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		739A287116CF6C110020A6DE /* QuickWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		739A287416CF6C110020A6DE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		739A287716CF6C110020A6DE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		739A287816CF6C110020A6DE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		739A287916CF6C110020A6DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		739A287C16CF6C110020A6DE /* QuickWebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickWebView-Info.plist"; sourceTree = "<group>"; };
+		739A287E16CF6C110020A6DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		739A288016CF6C110020A6DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		739A288216CF6C110020A6DE /* QuickWebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickWebView-Prefix.pch"; sourceTree = "<group>"; };
+		739A288416CF6C110020A6DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		739A288616CF6C110020A6DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		739A288716CF6C110020A6DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		739A288A16CF6C120020A6DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		739A286E16CF6C110020A6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739A287516CF6C110020A6DE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		739A286816CF6C110020A6DE = {
+			isa = PBXGroup;
+			children = (
+				739A287A16CF6C110020A6DE /* QuickWebView */,
+				739A287316CF6C110020A6DE /* Frameworks */,
+				739A287216CF6C110020A6DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		739A287216CF6C110020A6DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				739A287116CF6C110020A6DE /* QuickWebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		739A287316CF6C110020A6DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				739A287416CF6C110020A6DE /* Cocoa.framework */,
+				739A287616CF6C110020A6DE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		739A287616CF6C110020A6DE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				739A287716CF6C110020A6DE /* AppKit.framework */,
+				739A287816CF6C110020A6DE /* CoreData.framework */,
+				739A287916CF6C110020A6DE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		739A287A16CF6C110020A6DE /* QuickWebView */ = {
+			isa = PBXGroup;
+			children = (
+				739A288616CF6C110020A6DE /* AppDelegate.h */,
+				739A288716CF6C110020A6DE /* AppDelegate.m */,
+				739A288916CF6C120020A6DE /* MainMenu.xib */,
+				739A287B16CF6C110020A6DE /* Supporting Files */,
+			);
+			path = QuickWebView;
+			sourceTree = "<group>";
+		};
+		739A287B16CF6C110020A6DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				739A287C16CF6C110020A6DE /* QuickWebView-Info.plist */,
+				739A287D16CF6C110020A6DE /* InfoPlist.strings */,
+				739A288016CF6C110020A6DE /* main.m */,
+				739A288216CF6C110020A6DE /* QuickWebView-Prefix.pch */,
+				739A288316CF6C110020A6DE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		739A287016CF6C110020A6DE /* QuickWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739A288E16CF6C120020A6DE /* Build configuration list for PBXNativeTarget "QuickWebView" */;
+			buildPhases = (
+				739A286D16CF6C110020A6DE /* Sources */,
+				739A286E16CF6C110020A6DE /* Frameworks */,
+				739A286F16CF6C110020A6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickWebView;
+			productName = QuickWebView;
+			productReference = 739A287116CF6C110020A6DE /* QuickWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		739A286916CF6C110020A6DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = azu;
+			};
+			buildConfigurationList = 739A286C16CF6C110020A6DE /* Build configuration list for PBXProject "QuickWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 739A286816CF6C110020A6DE;
+			productRefGroup = 739A287216CF6C110020A6DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				739A287016CF6C110020A6DE /* QuickWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		739A286F16CF6C110020A6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739A287F16CF6C110020A6DE /* InfoPlist.strings in Resources */,
+				739A288516CF6C110020A6DE /* Credits.rtf in Resources */,
+				739A288B16CF6C120020A6DE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		739A286D16CF6C110020A6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739A288116CF6C110020A6DE /* main.m in Sources */,
+				739A288816CF6C110020A6DE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		739A287D16CF6C110020A6DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				739A287E16CF6C110020A6DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		739A288316CF6C110020A6DE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				739A288416CF6C110020A6DE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		739A288916CF6C120020A6DE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				739A288A16CF6C120020A6DE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		739A288C16CF6C120020A6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		739A288D16CF6C120020A6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		739A288F16CF6C120020A6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickWebView/QuickWebView-Prefix.pch";
+				INFOPLIST_FILE = "QuickWebView/QuickWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		739A289016CF6C120020A6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickWebView/QuickWebView-Prefix.pch";
+				INFOPLIST_FILE = "QuickWebView/QuickWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		739A286C16CF6C110020A6DE /* Build configuration list for PBXProject "QuickWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739A288C16CF6C120020A6DE /* Debug */,
+				739A288D16CF6C120020A6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739A288E16CF6C120020A6DE /* Build configuration list for PBXNativeTarget "QuickWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739A288F16CF6C120020A6DE /* Debug */,
+				739A289016CF6C120020A6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 739A286916CF6C110020A6DE /* Project object */;
+}
