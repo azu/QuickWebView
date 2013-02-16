@@ -15,6 +15,7 @@
 		739A288B16CF6C120020A6DE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 739A288916CF6C120020A6DE /* MainMenu.xib */; };
 		739A289216CF6C7E0020A6DE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739A289116CF6C7E0020A6DE /* WebKit.framework */; };
 		739A289916CF79CF0020A6DE /* NSURL+L0URLParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A289716CF79CF0020A6DE /* NSURL+L0URLParsing.m */; };
+		739A289C16CF88040020A6DE /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A289B16CF88040020A6DE /* NSString+URLEncode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		739A289116CF6C7E0020A6DE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		739A289716CF79CF0020A6DE /* NSURL+L0URLParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+L0URLParsing.m"; sourceTree = "<group>"; };
 		739A289816CF79CF0020A6DE /* NSURL+L0URLParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+L0URLParsing.h"; sourceTree = "<group>"; };
+		739A289A16CF88040020A6DE /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		739A289B16CF88040020A6DE /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 			children = (
 				739A289716CF79CF0020A6DE /* NSURL+L0URLParsing.m */,
 				739A289816CF79CF0020A6DE /* NSURL+L0URLParsing.h */,
+				739A289A16CF88040020A6DE /* NSString+URLEncode.h */,
+				739A289B16CF88040020A6DE /* NSString+URLEncode.m */,
 			);
 			name = URLEncode;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 				739A288116CF6C110020A6DE /* main.m in Sources */,
 				739A288816CF6C110020A6DE /* AppDelegate.m in Sources */,
 				739A289916CF79CF0020A6DE /* NSURL+L0URLParsing.m in Sources */,
+				739A289C16CF88040020A6DE /* NSString+URLEncode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

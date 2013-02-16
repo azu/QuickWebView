@@ -23,9 +23,11 @@
 - (void)handleURLEvent:(NSAppleEventDescriptor*)event withReplyEvent:(NSAppleEventDescriptor*)replyEvent
 {
     NSString* urlString = [[event paramDescriptorForKeyword:keyDirectObject] stringValue];
+    NSLog(@"url %@",urlString);
     NSURL *url = [NSURL URLWithString:urlString];
     if (url && [[url host] isEqualToString:@"open"]) {
         NSDictionary *params = [url dictionaryByDecodingQueryString];
+        NSLog(@"url %@",params);
         NSURL *urlForOpen = [NSURL URLWithString:[params objectForKey:@"url"]];
         [[self.webView mainFrame] loadRequest:[NSURLRequest requestWithURL:urlForOpen]];
     }

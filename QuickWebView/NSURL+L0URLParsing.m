@@ -7,7 +7,7 @@
 //
 // https://github.com/typester/emacs-handler
 #import "NSURL+L0URLParsing.h"
-
+#import "NSString+URLEncode.h"
 
 @implementation NSURL (L0URLParsing)
 
@@ -43,7 +43,7 @@
 			value = nil;
 		
 		if (value)
-			[dict setObject:[value stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding] forKey:[key stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+			[dict setObject:value forKey:[key stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
 		else
 			[dict setObject:[NSNull null] forKey:[key stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
 			
