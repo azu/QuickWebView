@@ -13,6 +13,8 @@
 		739A288516CF6C110020A6DE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 739A288316CF6C110020A6DE /* Credits.rtf */; };
 		739A288816CF6C110020A6DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A288716CF6C110020A6DE /* AppDelegate.m */; };
 		739A288B16CF6C120020A6DE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 739A288916CF6C120020A6DE /* MainMenu.xib */; };
+		739A289216CF6C7E0020A6DE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739A289116CF6C7E0020A6DE /* WebKit.framework */; };
+		739A289916CF79CF0020A6DE /* NSURL+L0URLParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A289716CF79CF0020A6DE /* NSURL+L0URLParsing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		739A288616CF6C110020A6DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		739A288716CF6C110020A6DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		739A288A16CF6C120020A6DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		739A289116CF6C7E0020A6DE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		739A289716CF79CF0020A6DE /* NSURL+L0URLParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+L0URLParsing.m"; sourceTree = "<group>"; };
+		739A289816CF79CF0020A6DE /* NSURL+L0URLParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+L0URLParsing.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				739A289216CF6C7E0020A6DE /* WebKit.framework in Frameworks */,
 				739A287516CF6C110020A6DE /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +69,7 @@
 		739A287316CF6C110020A6DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				739A289116CF6C7E0020A6DE /* WebKit.framework */,
 				739A287416CF6C110020A6DE /* Cocoa.framework */,
 				739A287616CF6C110020A6DE /* Other Frameworks */,
 			);
@@ -82,6 +89,7 @@
 		739A287A16CF6C110020A6DE /* QuickWebView */ = {
 			isa = PBXGroup;
 			children = (
+				739A289316CF77280020A6DE /* URLEncode */,
 				739A288616CF6C110020A6DE /* AppDelegate.h */,
 				739A288716CF6C110020A6DE /* AppDelegate.m */,
 				739A288916CF6C120020A6DE /* MainMenu.xib */,
@@ -100,6 +108,15 @@
 				739A288316CF6C110020A6DE /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		739A289316CF77280020A6DE /* URLEncode */ = {
+			isa = PBXGroup;
+			children = (
+				739A289716CF79CF0020A6DE /* NSURL+L0URLParsing.m */,
+				739A289816CF79CF0020A6DE /* NSURL+L0URLParsing.h */,
+			);
+			name = URLEncode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +185,7 @@
 			files = (
 				739A288116CF6C110020A6DE /* main.m in Sources */,
 				739A288816CF6C110020A6DE /* AppDelegate.m in Sources */,
+				739A289916CF79CF0020A6DE /* NSURL+L0URLParsing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +321,7 @@
 				739A289016CF6C120020A6DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
