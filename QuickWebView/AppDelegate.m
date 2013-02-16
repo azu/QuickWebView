@@ -31,5 +31,8 @@
     }
     
 }
-
+// when close window, exit application
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
+    return YES;
+}
 @end

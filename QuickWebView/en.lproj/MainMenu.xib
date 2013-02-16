@@ -1359,7 +1359,7 @@
 			<object class="NSCustomObject" id="755631768">
 				<string key="NSClassName">NSFontManager</string>
 			</object>
-			<object class="NSUserDefaultsController" id="1049453532">
+			<object class="NSUserDefaultsController" id="208938233">
 				<bool key="NSSharedInstance">YES</bool>
 			</object>
 		</array>
@@ -2001,10 +2001,10 @@
 					<object class="IBBindingConnection" key="connection">
 						<string key="label">title: values</string>
 						<reference key="source" ref="972006081"/>
-						<reference key="destination" ref="1049453532"/>
+						<reference key="destination" ref="208938233"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="972006081"/>
-							<reference key="NSDestination" ref="1049453532"/>
+							<reference key="NSDestination" ref="208938233"/>
 							<string key="NSLabel">title: values</string>
 							<string key="NSBinding">title</string>
 							<string key="NSKeyPath">values</string>
@@ -3171,7 +3171,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">554</int>
-						<reference key="object" ref="1049453532"/>
+						<reference key="object" ref="208938233"/>
 						<reference key="parent" ref="0"/>
 					</object>
 				</array>
