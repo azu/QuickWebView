@@ -4,6 +4,8 @@ Simple WebView OSX application/
 
 open URL in WebView via URL Scheme.
 
+![screenshot](http://gyazo.com/d1ecbb1371b9996185d17da973cf0c9f.gif)
+
 ## Usage
 
 e.g.) alfred(Custom Search)
