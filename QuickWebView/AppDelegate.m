@@ -8,11 +8,14 @@
 
 #import "AppDelegate.h"
 #import "NSURL+L0URLParsing.h"
+#import "ContentWebView.h"
+
 @implementation AppDelegate
 
 -(void)awakeFromNib {
     [[NSAppleEventManager sharedAppleEventManager] setEventHandler:self andSelector:@selector(handleURLEvent:withReplyEvent:) forEventClass:kInternetEventClass andEventID:kAEGetURL];
-    [[self.webView preferences] setDefaultFontSize:16];
+    [self.webView setUIDelegate:self.webView];
+    [self.webView setFrameLoadDelegate:self.webView];
 
 }
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
@@ -23,11 +26,9 @@
 - (void)handleURLEvent:(NSAppleEventDescriptor*)event withReplyEvent:(NSAppleEventDescriptor*)replyEvent
 {
     NSString* urlString = [[event paramDescriptorForKeyword:keyDirectObject] stringValue];
-    NSLog(@"url %@",urlString);
     NSURL *url = [NSURL URLWithString:urlString];
     if (url && [[url host] isEqualToString:@"open"]) {
         NSDictionary *params = [url dictionaryByDecodingQueryString];
-        NSLog(@"url %@",params);
         NSURL *urlForOpen = [NSURL URLWithString:[params objectForKey:@"url"]];
         [[self.webView mainFrame] loadRequest:[NSURLRequest requestWithURL:urlForOpen]];
     }

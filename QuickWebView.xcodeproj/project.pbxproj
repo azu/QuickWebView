@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17B5C30854DF53DCDF2BC487 /* ContentWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C9107F2E78A7F7B95538 /* ContentWebView.m */; };
+		17B5CE32B931B9F9DE9BCA88 /* reader.css in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C00D117A5DCD0F17BA1A /* reader.css */; };
 		739A287516CF6C110020A6DE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739A287416CF6C110020A6DE /* Cocoa.framework */; };
 		739A287F16CF6C110020A6DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 739A287D16CF6C110020A6DE /* InfoPlist.strings */; };
 		739A288116CF6C110020A6DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A288016CF6C110020A6DE /* main.m */; };
@@ -19,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17B5C00D117A5DCD0F17BA1A /* reader.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = reader.css; sourceTree = "<group>"; };
+		17B5C0309EEC70914B738E01 /* ContentWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentWebView.h; sourceTree = "<group>"; };
+		17B5C9107F2E78A7F7B95538 /* ContentWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentWebView.m; sourceTree = "<group>"; };
 		739A287116CF6C110020A6DE /* QuickWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		739A287416CF6C110020A6DE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		739A287716CF6C110020A6DE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -52,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17B5C0091D09A5FB1F10EE96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C00D117A5DCD0F17BA1A /* reader.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		739A286816CF6C110020A6DE = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +110,9 @@
 				739A288716CF6C110020A6DE /* AppDelegate.m */,
 				739A288916CF6C120020A6DE /* MainMenu.xib */,
 				739A287B16CF6C110020A6DE /* Supporting Files */,
+				17B5C9107F2E78A7F7B95538 /* ContentWebView.m */,
+				17B5C0309EEC70914B738E01 /* ContentWebView.h */,
+				17B5C0091D09A5FB1F10EE96 /* Resources */,
 			);
 			path = QuickWebView;
 			sourceTree = "<group>";
@@ -178,6 +194,7 @@
 				739A287F16CF6C110020A6DE /* InfoPlist.strings in Resources */,
 				739A288516CF6C110020A6DE /* Credits.rtf in Resources */,
 				739A288B16CF6C120020A6DE /* MainMenu.xib in Resources */,
+				17B5CE32B931B9F9DE9BCA88 /* reader.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +209,7 @@
 				739A288816CF6C110020A6DE /* AppDelegate.m in Sources */,
 				739A289916CF79CF0020A6DE /* NSURL+L0URLParsing.m in Sources */,
 				739A289C16CF88040020A6DE /* NSString+URLEncode.m in Sources */,
+				17B5C30854DF53DCDF2BC487 /* ContentWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

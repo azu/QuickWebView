@@ -8,9 +8,12 @@
 
 #import <Cocoa/Cocoa.h>
 #import <Webkit/Webkit.h>
+
+@class ContentWebView;
+
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
-@property (weak) IBOutlet WebView *webView;
+@property(assign) IBOutlet NSWindow *window;
+@property(weak) IBOutlet ContentWebView *webView;
 
 @end
