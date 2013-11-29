@@ -10,6 +10,9 @@ e.g.) alfred(Custom Search)
 
 > QuickWebView://open/?url=http://eow.alc.co.jp/search?q={query}
 
+## Download
+
+* Download form .app => [Releases · azu/QuickWebView](https://github.com/azu/QuickWebView/releases "Releases · azu/QuickWebView")
 
 ## Credits
 
