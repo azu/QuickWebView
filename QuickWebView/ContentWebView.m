@@ -20,8 +20,6 @@
     }
 }
 
-
-
 - (void)injectCSS {
     NSString *path = [[NSBundle mainBundle] pathForResource:@"reader" ofType:@"css"];
     NSString *cssContent = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:NULL];

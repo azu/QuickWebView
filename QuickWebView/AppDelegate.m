@@ -14,8 +14,6 @@
 
 -(void)awakeFromNib {
     [[NSAppleEventManager sharedAppleEventManager] setEventHandler:self andSelector:@selector(handleURLEvent:withReplyEvent:) forEventClass:kInternetEventClass andEventID:kAEGetURL];
-    [self.webView setUIDelegate:self.webView];
-    [self.webView setFrameLoadDelegate:self.webView];
 
 }
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
