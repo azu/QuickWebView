@@ -12,11 +12,11 @@ Examples
 
 alfred(Custom Search)
 
-> QuickWebView://open/?url=http://eow.alc.co.jp/search?q={query}
+> `QuickWebView://open/?url=http://eow.alc.co.jp/search?q={query}`
 
 Google Translation
 
-> QuickWebView://open/?url=http://translate.google.co.jp/m?q={query}
+> `QuickWebView://open/?url=http://translate.google.co.jp/m?q={query}`
 
 ## Download
 
