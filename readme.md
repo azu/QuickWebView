@@ -10,7 +10,7 @@ open URL in WebView via URL Scheme.
 
 Examples
 
-alfred(Custom Search)
+Alc
 
 > `QuickWebView://open/?url=http://eow.alc.co.jp/search?q={query}`
 
