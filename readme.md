@@ -8,9 +8,15 @@ open URL in WebView via URL Scheme.
 
 ## Usage
 
-e.g.) alfred(Custom Search)
+Examples
+
+alfred(Custom Search)
 
 > QuickWebView://open/?url=http://eow.alc.co.jp/search?q={query}
+
+Google Translation
+
+> QuickWebView://open/?url=http://translate.google.co.jp/m?q={query}
 
 ## Download
 
